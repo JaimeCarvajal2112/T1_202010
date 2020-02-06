@@ -1,0 +1,20 @@
+[
+  {
+    "zona":1,
+    "paseador_nombre":"Emanuel",
+    "paseador_apellido":"Romero",
+    "ubicacion_max_noroccidente_latitud":4.724829,
+    "ubicacion_max_noroccidente_longitud":-74.050544,
+    "ubicacion_max_suroriente_latitud":4.717606,
+    "ubicacion_max_suroriente_longitud":-74.043596
+  },
+  {
+    "zona":2,
+    "paseador_nombre":"Emilio",
+    "paseador_apellido":"Amaya",
+    "ubicacion_max_noroccidente_latitud":4.740605,
+    "ubicacion_max_noroccidente_longitud":-74.042808,
+    "ubicacion_max_suroriente_latitud":4.732953,
+    "ubicacion_max_suroriente_longitud":-74.032297
+  }
+]

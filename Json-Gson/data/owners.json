@@ -1,0 +1,42 @@
+[
+  {
+    "apellidos":"ORAMAS LEURO",
+    "nombres":"IVAN ALEJANDRO",
+    "cedula":58985132,
+    "direccion_latitud":4.719623,
+    "direccion_longitud":-74.045849,
+    "codigo_collar":[100001,100005],
+    "email":"monitor1@uniandes.edu.co",
+    "celular":311111111
+  },
+  {
+    "apellidos":"RUEDA CALDERON",
+    "nombres":"MARIO FERNANDO",
+    "cedula":69207589,
+    "direccion_latitud":4.720286,
+    "direccion_longitud":-74.049143,
+    "codigo_collar":[100002],
+    "email":"monitor2@uniandes.edu.co",
+    "celular":311222222
+  },
+  {
+    "apellidos":"SANTOS CALDERON",
+    "nombres":"JUAN CAMILO",
+    "cedula":33598452,
+    "direccion_latitud":4.722956,
+    "direccion_longitud":-74.044827,
+    "codigo_collar":[100003],
+    "email":"monitor3@uniandes.edu.co",
+    "celular":311333333
+  },
+  {
+    "apellidos":"VARELA BENJUMEA",
+    "nombres":"DAVID",
+    "cedula":68937258,
+    "direccion_latitud":4.722218,
+    "direccion_longitud":-74.047159,
+    "codigo_collar":[100004],
+    "email":"monitor4@uniandes.edu.co",
+    "celular":311444444
+  }
+]
