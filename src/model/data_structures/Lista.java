@@ -22,6 +22,7 @@ public class Lista <T> {
 				return true;
 			}else{
 				primero = nuevo;
+				this.tamano++;
 				return true;
 			}
 		}catch(Exception e){return false;}
@@ -32,9 +33,17 @@ public class Lista <T> {
 			Node<T> nuevo = new Node<T>(nodo);
 			Node<T> revisar = primero;
 			while(revisar.darSiguiente()!=null){
-				if(revisar == nuevo){
-					revisar.darAnterior().cambiarSig(revisar.darSiguiente());
-					revisar.darSiguiente().cambiarAnterior(revisar.darAnterior());
+				if(revisar.darDato() == nuevo.darDato()){
+					if(revisar == primero){
+						primero = revisar.darSiguiente();
+						if(actual == revisar){
+							actual = null;
+						}
+					}
+					if(revisar.darAnterior()!=null && revisar.darSiguiente()!=null){
+						revisar.darAnterior().cambiarSig(revisar.darSiguiente());
+						revisar.darSiguiente().cambiarAnterior(revisar.darAnterior());
+					}
 					tamano--;
 					return true;
 				}else{
@@ -64,7 +73,7 @@ public class Lista <T> {
 		}
 	}
 
-	public void iniciarRecorido(){
+	public void iniciarRecorrido(){
 		actual = primero;
 	}
 
